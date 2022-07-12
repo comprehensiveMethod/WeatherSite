@@ -15,7 +15,17 @@ windSpeed
 
 name of the Town/city/district
 
+---
 
+### Technology stack:
+
+  java 8
+  
+  Spring boot/web/mvc
+   
+  Lombok
+  
+  ---
 
 ## Thanks to OpenWeather for their WeatrherAPI
 
