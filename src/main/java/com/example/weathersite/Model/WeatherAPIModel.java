@@ -20,7 +20,7 @@ public class WeatherAPIModel {
     }
 
     public static JSONObject weatherJson() throws IOException, JSONException {
-        InputStream is = new URL("url").openStream();
+        InputStream is = new URL("yourOpenWeatherAPI").openStream();
         try {
             BufferedReader rd = new BufferedReader(new InputStreamReader(is, Charset.forName("UTF-8")));
             String jsonText = readAll(rd);
